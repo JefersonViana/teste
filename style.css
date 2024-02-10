@@ -126,7 +126,6 @@ h4 {
     height: 2000px;
     justify-content: space-around;
     padding: 10px 0 0 0;
-    background-color: green;
   }
   .skills {
     display: flex;
@@ -136,22 +135,28 @@ h4 {
     align-items: center;
     justify-content: space-around;
     padding: 10px 0 0 0;
-    background-color: yellow;
   }
   .infos-box-center {
     order: 1;
-    width: 87%;
+    width: 80%;
     height: 98vh;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
   }
   .infos-box-center-up {
-    width: 100%;
+    width: 50%;
     height: 40%;
+    position: relative;
+    top: 10px;
+    /* background-color: red; */
   }
   .infos-box-center-down {
-    width: 100%;
+    width: 50%;
     height: 59%;
+    position: relative;
   }
   .infos-box-left {
     order: 2;
@@ -166,7 +171,7 @@ h4 {
     margin-top: 5px;
   }
   .skills-box {
-    width: 87%;
+    width: 50%;
     height: 98vh;
   }
 }
