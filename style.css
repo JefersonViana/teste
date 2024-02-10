@@ -7,11 +7,7 @@
 body {
   width: 100%;
   display: flex;
-  padding: 0;
-  margin: 0;
   flex-direction: column;
-  align-items: center;
-  background-color: red;
 }
 
 .light {
@@ -36,103 +32,106 @@ body {
 }
 
 .infos {
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 10px 0 0 0;
   background-image: url('./toright.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.infos-box-left, .infos-box-right  {
+/* .infos-box-left, .infos-box-right  {
   width: 25%;
   height: 630px;
-}
+} */
 
 .infos-box-center {
-  width: 48%;
-  height: 630px;
+  /* width: 48%;
+  height: 630px; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1%;
+  /* align-items: center;
+  gap: 1%; */
 }
 
 .infos-box-center-up {
 	justify-content: center;
 	align-items: center;
 	color: #10a87d;
-	padding: 0.5em 1.5em;
+	/* padding: 0.5em 1.5em;
   width: 99%;
-  height: 30%;
+  height: 30%; */
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.infos-box-center-down {
-  width: 99%;
-  height: 70%;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .skills {
-  width: 100%;
   background-image: url('./toleft.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
   display: flex;
-  justify-content: center;
-  padding: 10px 0 0 0;
 }
 
-.skills-box {
+/* .skills-box {
   width: 98%;
   height: 630px;
-}
+} */
 
-h1 {
+h4 {
   color: orange;
   /* color: #10a87d; */
-  font-size: 2.5em;
-  text-align: center;
   padding: 0.5em 0;
+  background-color: gray;
 }
 
 @media screen and (max-width: 480px) {
   .infos {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 2000px;
+    justify-content: space-around;
+    padding: 10px 0 0 0;
   }
   .infos-box-center {
     order: 1;
     width: 95%;
+    height: 98vh;
+    justify-content: space-between;
+    align-items: center;
   }
   .infos-box-center-up {
     width: 100%;
+    height: 40%;
   }
   .infos-box-center-down {
     width: 100%;
+    height: 59%;
   }
   .infos-box-left {
     order: 2;
     width: 95%;
+    height: 98vh;
     margin-top: 5px;
   }
   .infos-box-right {
     order: 3;
     width: 95%;
+    height: 98vh;
     margin-top: 5px;
   }
   .skills {
-    background-color: red;
+    display: flex;
+    width: 100%;
+    height: 2000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0 0 0;
   }
   .skills-box {
     width: 95%;
-    /* background-color: green; */
+    height: 98vh;
   }
 }
 
