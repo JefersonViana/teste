@@ -73,7 +73,7 @@ h4 {
     width: 100vw;
     height: 2000px;
     justify-content: space-around;
-    padding: 10px 0 0 0;
+    padding: 10px 0px 0px 0px;
   }
   .skills {
     display: flex;
