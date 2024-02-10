@@ -86,7 +86,7 @@ h4 {
   }
   .infos-box-center {
     order: 1;
-    width: 100%;
+    width: 87%;
     height: 98vh;
     justify-content: space-between;
     align-items: center;
@@ -104,13 +104,13 @@ h4 {
   }
   .infos-box-left {
     order: 2;
-    width: 100%;
+    width: 87%;
     height: 98vh;
     margin-top: 5px;
   }
   .infos-box-right {
     order: 3;
-    width: 100%;
+    width: 87%;
     height: 98vh;
     margin-top: 5px;
   }
