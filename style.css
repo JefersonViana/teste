@@ -1,3 +1,4 @@
+/* https://br.freepik.com/vetores-premium/painel-de-interface-de-usuario-azul-futurista-hud-exibe-alvo-de-tela-de-tecnologia-de-realidade-virtual_29215952.htm#from_view=detail_alsolike */
 * {
   padding: 0;
   margin: 0;
@@ -8,13 +9,13 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: red;
 }
 
 .light {
   background: #fdfdfd50;
 }
 
-/* https://br.freepik.com/vetores-premium/painel-de-interface-de-usuario-azul-futurista-hud-exibe-alvo-de-tela-de-tecnologia-de-realidade-virtual_29215952.htm#from_view=detail_alsolike */
 
 .dark {
   background: #00000095;
@@ -32,36 +33,9 @@ body {
 }
 
 .infos {
-  display: flex;
   background-image: url('./toright.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-/* .infos-box-left, .infos-box-right  {
-  width: 25%;
-  height: 630px;
-} */
-
-.infos-box-center {
-  /* width: 48%;
-  height: 630px; */
-  display: flex;
-  flex-direction: column;
-  /* align-items: center;
-  gap: 1%; */
-}
-
-.infos-box-center-up {
-	justify-content: center;
-	align-items: center;
-	color: #10a87d;
-	/* padding: 0.5em 1.5em;
-  width: 99%;
-  height: 30%; */
-  display: flex;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .skills {
@@ -69,27 +43,44 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
-  display: flex;
 }
 
-/* .skills-box {
-  width: 98%;
-  height: 630px;
+/* .infos-box-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.infos-box-center-up {
+	justify-content: center;
+	align-items: center;
+	color: #10a87d;
+  display: flex;
 } */
+
+
 
 h4 {
   color: orange;
   /* color: #10a87d; */
-  padding: 0.5em 0;
   background-color: gray;
 }
 
 @media screen and (max-width: 480px) {
   .infos {
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 2000px;
+    justify-content: space-around;
+    padding: 10px 0 0 0;
+  }
+  .skills {
+    display: flex;
+    width: 100%;
+    height: 2000px;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     padding: 10px 0 0 0;
   }
@@ -119,15 +110,6 @@ h4 {
     width: 95%;
     height: 98vh;
     margin-top: 5px;
-  }
-  .skills {
-    display: flex;
-    width: 100%;
-    height: 2000px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 0 0 0;
   }
   .skills-box {
     width: 95%;
